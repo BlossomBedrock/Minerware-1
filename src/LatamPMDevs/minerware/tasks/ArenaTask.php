@@ -97,7 +97,7 @@ final class ArenaTask extends Task {
 				}
 				if ($arena->inbetweentime === 10) {
 					foreach ($players as $player) {
-						$player->sendTitle("§6MinerWare", $this->plugin->getTranslator()->translate($player, "game.arena.inbetween.credits"), 10, 10, 10);
+						$player->sendTitle("§6MinerWare" , "§5By: Blossom"), 10, 10, 10);
 					}
 				} elseif ($arena->inbetweentime === 6) {
 					foreach ($players as $player) {
